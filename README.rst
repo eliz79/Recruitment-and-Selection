@@ -49,7 +49,9 @@ The frustrating part arrives when the background checks are failed and the
 negotiations are not successful and the target is short. The process is
 repeated again to fill the vacant positions, while the candidates passing the
 criteria are still waiting for remaining people to be selected resulting the
-delay in the overall process.
+delay in the overall process. The process that should have finished in the fourth
+day after the notification, takes another two days to get finished, because of
+the shortage of filtered employees.
 
 User Stories:
 =============
