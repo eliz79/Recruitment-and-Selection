@@ -1,25 +1,25 @@
 Recruitment and Selection
 ===========================
 
-'Description': Recruitment provides opportunities to departments to align staff s
-kill sets to initiatives and goals, and for departmental and individual growth.
+'Description': Recruitment provides opportunities to departments to align staff 
+skill sets to initiatives and goals, and for departmental and individual growth.
 Proper planning and evaluation of the need will lead to hiring the right person
 for the role and team. The process can lead to frustration, if there are not
-proper resources; the resources are not properly utilized due to the obsolete
-methods in the process. This project tries to overcome the problems in hiring
-process.
+proper resources or if the resources are not properly utilized due to the
+obsolete methods in the process. This project tries to overcome the problems
+in hiring process.
 
 Persona:
 =========
 Prescreened Prospective Hires:
 ===============================
-John Brown the Assistant Manager of Human resources in a government agency.John
+John Brown is the Assistant Manager of Human resources in a government agency.John
 and his team have to select a pool of 20 candidates for a special category of
 employees (say R) every three months. This project will minimize the time
 duration of selection process by generating a pool of prescreened candidates
 before getting the notification from the agency for the next class.
 
-'Details':
+''Details'':
 The HR team is given a target of new hires for different categories. This
 project explains recruitment process of one such class of employees (say R)
 and the problems encountered in the hiring process. The recruitment for class
