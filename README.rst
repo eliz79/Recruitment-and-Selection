@@ -11,19 +11,16 @@ in hiring process.
 
 Persona:
 =========
-Prescreened Prospective Hires:
+John the HR Assistant Manager:
 ===============================
-John Brown is the Assistant Manager of Human resources in a government agency.John
-and his team have to select a pool of 20 candidates for a special category of
-employees (say R) every three months. This project will minimize the time
-duration of selection process by generating a pool of prescreened candidates
-before getting the notification from the agency for the next class.
+John Brown is the Assistant Manager of Human resources in a government 
+agency. John wants to minimize the duration of selection process.
 
 ''Details'':
 The HR team is given a target of new hires for different categories. This
 project explains recruitment process of one such class of employees (say R)
 and the problems encountered in the hiring process. The recruitment for class
-R consists of various steps. Examination, Technical Efficiency Test, Background
+R consists of various steps. Examination, Background
 checks and negotiation for salary (salary belonging to that class is fixed).
 For a candidate to get hired, he must have all the tests cleared in order to be
 eligible for the final list. John wants to generate a pool of prescreened
@@ -38,29 +35,64 @@ before the recruitment starts for the next target.
 
 Problem Scenarios:
 ===================
-HR team is provided a target of 20 new hires for class R. The process involves
-selecting the employees from the Exam list on the basis of their score. The
-passing score for the exam is 70.  After the selection from exam list,
-candidates are required to pass technical efficiency exam. By meeting all these
-criteria, they are moved to the next step of background checks where the
-education and experience are verified. After that the negotiations for the
-salary are done. 
-The frustrating part arrives when the background checks are failed and the
-negotiations are not successful and the target is short. The process is
-repeated again to fill the vacant positions, while the candidates passing the
-criteria are still waiting for remaining people to be selected resulting the
-delay in the overall process. The process that should have finished in the fourth
-day after the notification, takes another two days to get finished, because of
-the shortage of filtered employees.
+HR team is provided a target of 20 new hires for a particular class.  
+The process should be completed within a given deadline without any delays
+
+Current Alternatives: 
+^^^^^^^^^^^^^^^^^^^^^^
+After the selecting 20 candidates with passing score (HR does not have
+enough time to select and screen extra employees from list as the selection
+is started after the notification), candidates passing the background checks 
+are moved to next step.  Salary is negotiated with candidates. Five of them
+fails background checks and the salary negotiations, the target is short. 
+The step one is repeated again, choose 5 employees and move to step 2 and
+ step 3 until target is achieved.
+
+Value Proposition:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A software that will help to filter and sort the employees on the basis of their 
+exam scores after performing the background checks and salary negotiations.
+ While the whole process is performed electronically, it will save the time and 
+there is less possibility of errors.
 
 User Stories:
 =============
-John and his team prepares for the next class of 20 employees.  The date of
-notification for next class is approaching.  The screening starts and 40
-candidates are selected. After filtering the employees for examination and
-technical exam, background checks are performed. Filtered candidates move to
-negotiations and final list of candidates is generated. This list is being
-finalized and sorted in order of the exam score of candidates.  With the
-prescreened pool of employees, things came easy and processing is done in time. 
+As John the HR assistant manager, I would like to select extra candidates from
+the list of candidates by their minimum passing score of 70 before notification.
+I would like to perform the background checks, and perform the salary
+negotiations and move them into next step.
+I would like to sort the candidates after clearing all the phases in the order
+of their exam scores, thus creating a final list of prescreened prospective
+new hires.
+
+Acceptance Stories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Scenario: 1
+`````````````````````
+Filtering the candidates with passing score:
+`````````````````````````````````````````````````
+Given that the date for next target is approaching, when I import the list of
+data with names and exam scores, then the candidates with score less than 70
+are filtered out.
+
+Scenario: 2
+```````````````
+Background checks and salary negotiations:
+`````````````````````````````````````````````````
+When the candidates are filtered out, I would then perform background checks
+and salary negotiations. Candidates having passed the background checks and
+salary negotiations are added in the final list
+
+ Scenario: 3
+``````````````````````
+Sorting the final list:
+`````````````````````````````````````````````````
+The final stage is to sort them according to their score so that are ready to
+be on board. The employee names with score and an integer 1 are sorted on the
+basis of their exam score and a final prescreened list is created.
+
+
 
 
