@@ -36,10 +36,9 @@ Current Alternatives:
 ^^^^^^^^^^^^^^^^^^^^^
 20 candidates are selected with passing score (HR does not have enough time to
 select and screen extra employees from list as the selection is started after
-the notification), candidates passing the background checks are moved to next
-step.  Salary is negotiated with candidates. Five of them fails background check
-and the salary negotiations, the target is short. The step one is repeated
-again, choose 5 employees and move to step 2 and step 3 until target is achieved
+the notification), candidates passing the background checks and salary
+negotiations are moved to next step. Five of them fails phase 2. The choose 5
+employees and move to step 2 and step 3 until target is achieved
 
 Value Proposition:
 ^^^^^^^^^^^^^^^^^^
@@ -61,10 +60,23 @@ new hires.
 Acceptance Stories
 ^^^^^^^^^^^^^^^^^^
 Scenario: 1
+```````````
 Filtering the candidates with passing score:
+````````````````````````````````````````````    
 Given that the date for next target is approaching, when I import the list of
 data with names and exam scores, then the candidates with score less than 70
 are filtered out
+Scenario: 2
+``````````
+When the candidates are filtered out, I would then perform background checks and salary negotiations. Candidates having passed the background checks and salary negotiations are added in the final list
+Scenario: 3
+````````````
+Sorting the final list:
+```````````````````````
+Sorting final list:
+```````````````````
+The final stage is to sort them according to their score so that are ready to be on board. The employee names with score and an integer 1 are sorted on the basis of their exam score and a final prescreened list is created.
+
 
 
 
