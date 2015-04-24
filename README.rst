@@ -1,7 +1,7 @@
 Recruitment and Selection
 ===========================
 Recruitment provides opportunities to departments to align staff skill sets for
-departmental growth.Proper planning and evaluation of will lead to hiring the
+departmental growth. Proper planning and evaluation will lead to hiring the
 right person for the team. The process can lead to frustration, if there are not
 proper resources or if the resources are not properly utilized due to the
 obsolete methods in the process. 
@@ -50,8 +50,10 @@ User Stories:
 =============
 As John the HR assistant manager, I would like to select extra candidates from
 the list of candidates by their minimum passing score of 70 before notification.
+
 I would like to perform the background checks, and perform the salary
 negotiations and move them into next step.
+
 I would like to sort the candidates after clearing all the phases in the order
 of their exam scores, thus creating a final list of prescreened prospective
 new hires.
