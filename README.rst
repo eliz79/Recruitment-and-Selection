@@ -1,11 +1,10 @@
 Recruitment and Selection
 ===========================
-Recruitment provides opportunities to departments to align staff skill sets to
-initiatives,for departmental growth.Proper planning and evaluation of the need
-will lead to hiring the right person for the team. The process can lead to
-frustration, if there are not proper resources or if the resources are not
-properly utilized due to the obsolete methods in the process. This project
-tries to overcome the problems in hiring process.
+Recruitment provides opportunities to departments to align staff skill sets for
+departmental growth.Proper planning and evaluation of will lead to hiring the
+right person for the team. The process can lead to frustration, if there are not
+proper resources or if the resources are not properly utilized due to the
+obsolete methods in the process. 
 
 Persona:
 =========
@@ -66,20 +65,18 @@ Filtering the candidates with passing score:
 Given that the date for next target is approaching, when I import the list of
 data with names and exam scores, then the candidates with score less than 70
 are filtered out
+
 Scenario: 2
-``````````
-When the candidates are filtered out, I would then perform background checks and salary negotiations. Candidates having passed the background checks and salary negotiations are added in the final list
+```````````
+Background Checks and Salary:
+`````````````````````````````
+When the candidates are filtered out, I would then perform background checks
+and salary negotiations. Candidates having passed the background checks and
+salary negotiations are added in the final list
+
 Scenario: 3
 ````````````
 Sorting the final list:
 ```````````````````````
-Sorting final list:
-```````````````````
-The final stage is to sort them according to their score so that are ready to be on board. The employee names with score and an integer 1 are sorted on the basis of their exam score and a final prescreened list is created.
-
-
-
-
-
-
-
+Given that the candidates are selected for final stage, I would sort them with
+their exam scores.
