@@ -66,33 +66,6 @@ I would like to sort the candidates after clearing all the phases in the order
 of their exam scores, thus creating a final list of prescreened prospective
 new hires.
 
-Acceptance Stories
-^^^^^^^^^^^^^^^^^^
-
-Scenario: 1
-```````````
-Filtering the candidates with passing score:
-````````````````````````````````````````````
-Given that the date for next target is approaching, when I import the list of
-data with names and exam scores, then the candidates with score less than 70
-are filtered out.
-
-Scenario: 2
-```````````
-Background checks and salary negotiations:
-``````````````````````````````````````````
-When the candidates are filtered out, I would then perform background checks
-and salary negotiations. Candidates having passed the background checks and
-salary negotiations are added in the final list
-
- Scenario: 3
-````````````
-Sorting the final list:
-```````````````````````
-The final stage is to sort them according to their score so that are ready to
-be on board. The employee names with score and an integer 1 are sorted on the
-basis of their exam score and a final prescreened list is created.
-
 
 
 
