@@ -64,21 +64,21 @@ Scenario: 1
 ```````````
 Filtering the candidates with passing score:
 ````````````````````````````````````````````    
-Given that the date for next target is approaching, when I import the list of
-data with names and exam scores, then the candidates with score less than 70
-are filtered out
+Given that the date for next target is approaching, when I click input button
+the list with names and exam scores is imported, then the candidates with score
+less than 70 are filtered out
 
 Scenario: 2
 ```````````
 Background Checks and Salary:
 `````````````````````````````
-When the candidates are filtered out, I would then perform background checks
-and salary negotiations. Candidates having passed the background checks and
-salary negotiations are added in the final list
+Given that the candidates are filtered out, when I  perform background checks
+and salary negotiations, then the candidates having passed the background checks and
+salary negotiations are added to list for next step.
 
 Scenario: 3
 ````````````
 Sorting the final list:
 ```````````````````````
-Given that the candidates are selected for final stage, I would sort them with
-their exam scores.
+Given that the candidates are selected for final stage, when I  would click the 
+sort button, then they will be  sorted into the final list with their exam scores.
