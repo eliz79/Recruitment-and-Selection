@@ -22,9 +22,9 @@ the final list. John wants to generate a pool of prescreened employees on the
 basis of eligibility criteria before his team gets notified.
 
 Goals:
-This template will overcome the delays caused in achieving the target in the
-deadline provided by preparing the pool of prescreened perspective new hires
-before the recruitment starts for the next target.
+This template will overcome delays in achieving target at deadline by preparing
+pool of prescreened perspective new hires before recruitment starts for next
+target.
 
 Problem Scenarios:
 ===================
@@ -76,8 +76,10 @@ Scenario: 2
 Background Checks and Salary:
 `````````````````````````````
 Given that the candidates are filtered out,
+
 When I  perform background checks and salary negotiations,
-then the candidates having passed the background checks and salary negotiations
+
+Then the candidates having passed the background checks and salary negotiations
 are added to list for next step.
 
 Scenario: 3
@@ -85,5 +87,7 @@ Scenario: 3
 Sorting the final list:
 ```````````````````````
 Given that the candidates are selected for final stage,
-when I  would click the sort button,
-then they will be  sorted into the final list with their exam scores.
+
+When I  would click the sort button,
+
+Then they will be  sorted into the final list with their exam scores.
