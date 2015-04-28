@@ -65,7 +65,9 @@ Scenario: 1
 Filtering the candidates with passing score:
 ````````````````````````````````````````````    
 Given that the date for next target is approaching,
+
 When I click filter button
+
 Then the list with names and exam scores is imported, and candidates with score
 less than 70 are filtered out
 
